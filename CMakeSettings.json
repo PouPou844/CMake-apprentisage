@@ -1,0 +1,42 @@
+{
+	"configurations": [
+		{
+			"name": "x64-Debug",
+			"generator": "Ninja",
+			"configurationType": "Debug",
+			"inheritEnvironments": [ "msvc_x64_x64" ],
+			"buildRoot": "${projectDir}\\out\\build\\${name}",
+			"installRoot": "${projectDir}\\out\\install\\${name}",
+			"cmakeCommandArgs": "-DCMAKE_TOOLCHAIN_FILE=C:/Users/l.masvidal/Documents/GitHub/vcpkg/scripts/buildsystems/vcpkg.cmake"
+			"variables": [
+				{
+					"name": "CMAKE_C_COMPILER",
+					"value": "cl.exe"
+				},
+				{
+					"name": "CMAKE_TOOLCHAIN_FILE",
+					"value": "cl.exe"
+				}
+			]
+		},
+		{
+			"name": "x64-Release",
+			"generator": "Ninja",
+			"configurationType": "Release",
+			"inheritEnvironments": [ "msvc_x64_x64" ],
+			"buildRoot": "${projectDir}\\out\\build\\${name}",
+			"installRoot": "${projectDir}\\out\\install\\${name}",
+			"cmakeCommandArgs": "-DCMAKE_TOOLCHAIN_FILE=C:/Users/l.masvidal/Documents/GitHub/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"variables": [
+				{
+					"name": "CMAKE_CXX_COMPILER",
+					"value": "cl.exe"
+				},
+				{
+					"name": "CMAKE_TOOLCHAIN_FILE",
+					"value": "C:/Users/l.masvidal/Documents/GitHub/vcpkg/scripts/buildsystems/vcpkg.cmake"
+				}
+			]
+		}
+	]
+}

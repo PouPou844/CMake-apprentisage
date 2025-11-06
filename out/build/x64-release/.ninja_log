@@ -1,8 +1,5 @@
 # ninja log v6
-10	409	7840396896652818	CMakeFiles/Executable.dir/main.cpp.obj	9f03c9555b072d0e
-412	455	7840396900697574	mathlib/mathlib.lib	bbd389f1c0d1f261
-6	411	7840396896632791	mathlib/CMakeFiles/mathlib.dir/src/test.cpp.obj	e7aac629ed3a9541
-455	946	7840396901044265	Executable.exe	65acf3659f4f3a9
-6	2848	7840399451363029	build.ninja	a3cb0dd1165b5bae
-31	1342	7840399452421767	CMakeFiles/Executable.dir/main.cpp.obj	9f03c9555b072d0e
-1343	1745	7840399465580666	Executable.exe	65acf3659f4f3a9
+6	395	7841439101237219	mathlib/CMakeFiles/mathlib.dir/src/test.cpp.obj	fc39df4610c03d7f
+396	451	7841439105137862	mathlib/mathlib.lib	bbd389f1c0d1f261
+10	1259	7841439101257331	CMakeFiles/Executable.dir/main.cpp.obj	47a3cafd9d10aa49
+1260	1749	7841439113759034	Executable.exe	8037a59b5c846f0e

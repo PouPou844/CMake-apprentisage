@@ -1,9 +1,24 @@
+Récupération des informations de Registre à partir de https://github.com/microsoft/vcpkg (HEAD)...
 Détection du hachage du compilateur pour le triplet x64-windows...
 Compilateur trouvé : C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
-Les packages suivants sont déjà installés :
+Les packages suivants seront générés et installés :
     nlohmann-json:x64-windows@3.12.0#1 -- git+https://github.com/microsoft/vcpkg@f89a58e6478ca1e39120e93e7ed535c4aaf8198c
   * vcpkg-cmake:x64-windows@2024-04-23 -- git+https://github.com/microsoft/vcpkg@e74aa1e8f93278a8e71372f1fa08c3df420eb840
   * vcpkg-cmake-config:x64-windows@2024-05-23 -- git+https://github.com/microsoft/vcpkg@97a63e4bc1a17422ffe4eff71da53b4b561a7841
+Les packages supplémentaires (*) seront modifiés pour terminer cette opération.
+3 package(s) restauré(s) à partir de C:\Users\l.masvidal\AppData\Local\vcpkg\archives dans 75 ms. Utilisez --debug pour afficher plus de détails.
+Installation de 1/3 vcpkg-cmake-config:x64-windows@2024-05-23...
+Temps écoulé pour gérer vcpkg-cmake-config:x64-windows: 6.41 ms
+ABI du package vcpkg-cmake-config:x64-windows : f05e637d943168c61b3afa79a6000e644dd6f908a85428286a50331c137ba841
+Installation de 2/3 vcpkg-cmake:x64-windows@2024-04-23...
+Temps écoulé pour gérer vcpkg-cmake:x64-windows: 6.86 ms
+ABI du package vcpkg-cmake:x64-windows : 288d4f84c17936b72a39b7ce43cbebb3a79f13c6cc925719d813feff8c620629
+Installation de 3/3 nlohmann-json:x64-windows@3.12.0#1...
+Temps écoulé pour gérer nlohmann-json:x64-windows: 38.2 ms
+ABI du package nlohmann-json:x64-windows : bd2736640ce833f289d3bf9b9bfed8f8d5f613d341a549c22eca53600fff0b04
+Les contenus installés vous sont concédés sous licence par leurs propriétaires. Microsoft n'est pas responsable des packages tiers et n'octroie aucune licence les concernant.
+Les packages installés dans cette installation vcpkg déclarent les licences suivantes :
+MIT
 The package nlohmann-json provides CMake targets:
 
     find_package(nlohmann_json CONFIG REQUIRED)
@@ -17,4 +32,4 @@ For more information, see the docs here:
     
     https://json.nlohmann.me/api/macros/json_use_implicit_conversions/
 
-Toutes les installations demandées se sont correctement terminées en : 1.2 ms
+Toutes les installations demandées se sont correctement terminées en : 54.7 ms

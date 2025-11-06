@@ -10,8 +10,8 @@ project(CMake_apprentissage LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CPM_DOWLOAD_VERSION 0.38.8)
-include(cmake/CPM.cmake)
+#set(CPM_DOWLOAD_VERSION 0.38.8)
+#include(cmake/CPM.cmake)
 
 add_subdirectory(mathlib)
 add_executable(Executable main.cpp)
